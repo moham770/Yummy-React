@@ -1,0 +1,8 @@
+.layer{
+    top: 100%;
+    transition: 0.5s;
+    background-color: #ffffffd0;
+}
+.cate:hover .layer{
+    top: 0;
+}

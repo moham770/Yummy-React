@@ -1,0 +1,9 @@
+.card >div {
+   transition: 0.5s !important;
+   background-color: #ffffffd0;
+
+}
+.card:hover >div{
+    top:0 !important;
+
+}
