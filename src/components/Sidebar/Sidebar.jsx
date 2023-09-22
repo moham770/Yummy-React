@@ -89,7 +89,7 @@ useEffect(()=>{
   </div>
   <div className="sidbar-logos py-3 px-2 text-black bg-white  align-items-center d-flex flex-column justify-content-between">
     <div  className={`${style.sideBarLogo} `}>
-      <Link to='/'>
+      <Link onClick={()=>{closeSideBar()}} to='/'>
       <img className="w-100" src={logo} alt="" />
       </Link>
     </div>
