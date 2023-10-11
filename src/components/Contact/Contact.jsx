@@ -50,12 +50,12 @@ console.log(values)
   return (
   <>
   <div className="contact-us" id="contact-Us-area">
-  <div className="container w-75">
+  <div className="container">
     <form onSubmit={formik.handleSubmit}>
     <div className="row g-4 py-5">
-      <div className="col-md-6">
+      <div className="col-md-6 ">
         <div className="contact-input">
-          <input  type="text" placeholder="Enter Your Name" className="form-control mb-2" id="name"
+          <input  type="text" placeholder="Enter Your Name" className="form-control mb-2 w-100" id="name"
             name="name" 
             value={formik.values.name}
             onChange={formik.handleChange}
